@@ -55,7 +55,7 @@ class CaptionGenerator:
         if self.captions:
             self.caption_window = tk.Toplevel(self.master)
             self.caption_window.title("Generated Captions")
-            self.caption_window.geometry('500x300')
+            self.caption_window.geometry('550x600')
             self.caption_window.protocol("WM_DELETE_WINDOW", self.clear_captions)
 
             caption_frame = tk.Frame(self.caption_window)
